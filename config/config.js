@@ -14,7 +14,7 @@ module.exports = {
     "host": env.MYSQL_HOST,
     "port": env.MYSQL_PORT,
     "dialect": "mysql",
-    "operatorAliases": false //此参数为自行追加，解决高版本 sequelize 连接警告
+    "operatorsAliases": false,
   },
   "production": {
     "username": env.MYSQL_USERNAME,
@@ -23,6 +23,6 @@ module.exports = {
     "host": env.MYSQL_HOST,
     "port": env.MYSQL_PORT,
     "dialect": "mysql",
-    "operatorAliases": false //此参数为自行追加，解决高版本 sequelize 连接警告
+    "operatorsAliases": false,
   }
 }
