@@ -15,6 +15,6 @@ module.exports = {
 
   down: (queryInterface, Sequelize) => {
     const { Op } = Sequelize;
-    return queryInterface.bulkDelete('notes', { id: { [Op.in]: [1, 2, 3, 4] } },{});
+    return queryInterface.bulkDelete('notes', { id: { [Op.in]: [1, 2] } },{});
   },
 };
