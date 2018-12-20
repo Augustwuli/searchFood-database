@@ -10,7 +10,6 @@ module.exports = (sequelize, DataTypes) => sequelize.define(
     },
     name: {
       type: DataTypes.STRING,
-      defaultValue: '用户',
       allowNULL: false
     },
     phone: {
@@ -21,11 +20,11 @@ module.exports = (sequelize, DataTypes) => sequelize.define(
       type: DataTypes.STRING,
       allowNULL: false
     },
+    thumb_url: DataTypes.STRING,
+    created_at: DataTypes.DATE,
+    updated_at: DataTypes.DATE,
   },
   {
-    timestamps: true,
-    createdAt: 'created_at',
-    deletedAt: 'updated_at',
     tableName: 'users',
   }
 )

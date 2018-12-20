@@ -11,7 +11,6 @@ module.exports = {
       },
       name: {
         type: Sequelize.STRING,
-        defaultValue: '用户',
         allowNULL: false
       },
       phone: {
@@ -22,6 +21,7 @@ module.exports = {
         type: Sequelize.STRING,
         allowNULL: false
       },
+      thumb_url: Sequelize.STRING,
       created_at: Sequelize.DATE,
       updated_at: Sequelize.DATE,
     }
