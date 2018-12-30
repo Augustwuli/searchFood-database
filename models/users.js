@@ -21,6 +21,8 @@ module.exports = (sequelize, DataTypes) => sequelize.define(
       allowNULL: false
     },
     thumb_url: DataTypes.STRING,
+    gender: DataTypes.STRING,
+    signature: DataTypes.STRING,
     created_at: DataTypes.DATE,
     updated_at: DataTypes.DATE,
   },
