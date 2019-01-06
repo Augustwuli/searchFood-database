@@ -1,5 +1,5 @@
 'use strict';
-
+ 
 module.exports = {
   up: (queryInterface, Sequelize) => queryInterface.createTable(
     'notes',
