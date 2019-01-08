@@ -11,3 +11,4 @@ module.exports = {
     queryInterface.removeColumn('notes', 'signature'),
   ]),
 };
+ 
